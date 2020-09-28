@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>com.ohow.weather4idea</id>
+    <name>Weather Information For Idea</name>
+    <vendor email="hjg9704@163.com" url="http://www.yourcompany.com">ohow</vendor>
+
+    <description><![CDATA[
+    Provide simple weather information query.<br>
+    <em>Weather Information</em>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <applicationConfigurable parentId="tools" instance="com.ohow.config.AppSettingsConfig"
+                                 id="com.ohow.config.AppSettingsConfig"/>
+        <applicationService serviceImplementation="com.ohow.config.AppSettingsState"/>
+
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
