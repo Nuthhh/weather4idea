@@ -46,4 +46,9 @@ public class AppSettingsConfig implements SearchableConfigurable {
 
 
     }
+
+    @Override
+    public void reset() {
+        // 通过该方法加载值
+    }
 }

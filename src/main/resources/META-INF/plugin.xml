@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.ohow.weather4idea</id>
     <name>Weather Information For Idea</name>
-    <vendor email="hjg9704@163.com" url="http://www.yourcompany.com">ohow</vendor>
+    <vendor email="hjg9704@163.com" url="https://github.com/Nuthhh/weather4idea">ohow</vendor>
 
     <description><![CDATA[
     Provide simple weather information query.<br>
