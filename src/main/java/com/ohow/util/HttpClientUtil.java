@@ -1,7 +1,6 @@
 package com.ohow.util;
 
 import com.ohow.exception.HttpClientException;
-import org.apache.commons.lang3.tuple.Pair;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.ClientProtocolException;

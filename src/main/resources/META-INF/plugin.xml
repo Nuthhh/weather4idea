@@ -14,9 +14,9 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
-        <applicationConfigurable parentId="tools" instance="com.ohow.config.AppSettingsConfig"
-                                 id="com.ohow.config.AppSettingsConfig"/>
-        <applicationService serviceImplementation="com.ohow.config.AppSettingsState"/>
+        <applicationConfigurable parentId="tools" instance="com.ohow.setting.AppSettingsConfig"
+                                 id="com.ohow.setting.AppSettingsConfig"/>
+        <applicationService serviceImplementation="com.ohow.setting.AppSettingsState"/>
 
     </extensions>
 

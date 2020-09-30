@@ -1,4 +1,4 @@
-package com.ohow.config;
+package com.ohow.setting;
 
 
 import com.intellij.credentialStore.CredentialAttributes;
